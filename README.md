@@ -1,4 +1,4 @@
 # Project Melody
 Piano keyboard based familiar song finder.
 
-- Prebuilt piano keyboard: https://github.com/annaneo/pianoKeyboard
+Piano keyboard design inspired by: https://github.com/annaneo/pianoKeyboard
