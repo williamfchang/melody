@@ -47,7 +47,7 @@ ul.keyboard li:last-of-type {
 
 .white-key:hover { background: rgb(220,220,220); }
 
-.white-key:hover:active { background: rgb(170,170,170); }
+.white-key:hover:active, .white-key-active { background: rgb(170,170,170); }
 
 .black-key {
     z-index: 10;
@@ -59,7 +59,19 @@ ul.keyboard li:last-of-type {
 
 .black-key:hover { background: rgb(50,50,50); }
 
-.black-key:hover:active { background: rgb(70,70,70); }
+.black-key:hover:active, .black-key-active { background: rgb(70,70,70); }
+
+
+.white-key>p {
+    margin-top: 120px;
+    font-size: 14px;
+}
+
+.black-key>p {
+    margin-top: 70px;
+    font-size: 14px;
+    color: white;
+}
 
 /* positioning */
 .black-key + .white-key {
